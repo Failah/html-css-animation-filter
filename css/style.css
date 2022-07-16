@@ -128,9 +128,25 @@
     filter: grayscale(100%) blur(2px);
 }
 
+.ex-8-img {
+    transition: 3s linear;
+}
+
+.ex-8-img:hover {
+    border-radius: 25px;
+    filter: contrast(60%) sepia(30%);
+}
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: 3s linear;
+}
+
+.ex-9-img:hover {
+    border-radius: 25px;
+    filter: sepia(40%) grayscale(40%);
+    transform: scale(1.5);
 }
 
 .ex-10-icon {
